@@ -3,7 +3,7 @@ package org.example.homeWork02;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Stream implements JournalComponent{
+public class Stream implements JournalComponent {
 
     private int index;
 
@@ -14,13 +14,13 @@ public class Stream implements JournalComponent{
     }
 
     public void addGroup(JournalComponent group) {
-        groups.add(group);
+        groups.add ( group );
     }
 
     public void print() {
-        System.out.println("Поток " + index + ":");
-        for(JournalComponent group : groups) {
-            group.print();
+        System.out.println ( "Поток " + index + ":" );
+        for (JournalComponent group : groups) {
+            group.print ();
         }
     }
 

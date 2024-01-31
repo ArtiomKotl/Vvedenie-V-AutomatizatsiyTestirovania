@@ -13,11 +13,12 @@ public class Student {
         return name;
     }
 
-    public String getSurName(){
+    public String getSurName() {
         return surName;
     }
+
     public void print() {
-        System.out.println("- Студент " + name + " " + surName);
+        System.out.println ( "- Студент " + name + " " + surName );
     }
 
 }
