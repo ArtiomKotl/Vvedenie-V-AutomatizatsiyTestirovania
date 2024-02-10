@@ -24,7 +24,7 @@ public class ForecastsFiveDaysOfDailyTest extends AccuweatherAbstractTest {
                 .get(getBaseUrl() + "/forecasts/v1/daily/5day/{locationId}")
                 .then()
                 .statusCode(200)
-                .time(Matchers.lessThan(2000l))
+                .time(Matchers.lessThan(2000L))
                 .extract()
                 .response()
                 .body().as(Weather.class);
@@ -62,7 +62,7 @@ public class ForecastsFiveDaysOfDailyTest extends AccuweatherAbstractTest {
                 .extract()
                 .body().jsonPath().getList(".", Location.class);
         Assertions.assertAll(() -> Assertions.assertEquals(10, locationList.size()),
-                () -> Assertions.assertEquals("Samaraik", locationList.get(2).getLocalizedName()));
+                () -> Assertions.assertEquals("Samarai", locationList.get(2).getLocalizedName()));
 
     }
 }
