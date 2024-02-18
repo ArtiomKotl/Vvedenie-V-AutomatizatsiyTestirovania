@@ -1,4 +1,4 @@
-package org.max.seminar.spoon;
+package org.example.seminar.spoon;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.http.HttpResponse;
@@ -7,7 +7,7 @@ import org.apache.http.client.utils.URIBuilder;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.junit.jupiter.api.Test;
-import org.max.home.spoon.AbstractTest;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

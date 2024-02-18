@@ -7,7 +7,7 @@ import org.apache.http.client.utils.URIBuilder;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.junit.jupiter.api.Test;
-import org.max.seminar.accu.location.Location;
+import org.example.seminar.accu.location.Location;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

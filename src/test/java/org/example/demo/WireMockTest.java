@@ -156,8 +156,5 @@ public class WireMockTest {
             String responseString = scanner.useDelimiter("\\Z").next();
             return responseString;
         }
-
-
-
     }
 }

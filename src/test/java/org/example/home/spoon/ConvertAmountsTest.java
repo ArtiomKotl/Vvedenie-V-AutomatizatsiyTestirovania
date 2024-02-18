@@ -7,7 +7,7 @@ import org.apache.http.client.utils.URIBuilder;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.junit.jupiter.api.Test;
-import org.max.seminar.spoon.AbstractTest;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

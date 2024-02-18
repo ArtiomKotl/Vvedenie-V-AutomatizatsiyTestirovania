@@ -5,7 +5,7 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.junit.jupiter.api.Test;
-import org.max.seminar.spoon.AbstractTest;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -37,5 +37,4 @@ public class SimilarRecipesTest extends AbstractTest {
         assertEquals(500, response.getStatusLine().getStatusCode());
         assertEquals("ERROR", convertResponseToString(response));
     }
-
 }
